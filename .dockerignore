@@ -1,0 +1,27 @@
+# Speed up Docker builds by minimizing context
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.tmp
+*.log
+logs*
+
+# Large or generated assets
+demo_video/
+datasets/
+outputs/
+temp*/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python packaging/build artifacts
+build/
+dist/
+*.egg-info/
+
